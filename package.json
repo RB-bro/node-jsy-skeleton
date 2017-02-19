@@ -1,0 +1,25 @@
+{
+  "name": "node_start_template",
+  "version": "0.0.1",
+  "description": "project skeleton to pull from.",
+  "main": "index.js",
+  "babel": { "presets": [ "jsy" ] },
+  "scripts": {
+    "start": "node dist/main.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel src --out-dir dist",
+    "watch": "babel --watch src --out-dir dist",
+    "runtests":"nodemon --exec 'babel-node' tests/all.js tests/test*.js"
+  },
+  "author": "brandon brown",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-cli": "^6.23.0",
+    "babel-core": "^6.23.1",
+    "nodemon": "^1.11.0",
+    "babel-preset-jsy": "^0.0.7"
+  },
+  "dependencies": {
+    "tap-lite-tester": "^0.3.9"
+  }
+}
