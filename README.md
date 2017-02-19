@@ -12,7 +12,7 @@ $ npm run watch
 to rebuild on changes
 
 
-$ npm run runtests
+$ npm test
 
 
-to rerun tests on changes
+to run tests on changes

@@ -6,10 +6,9 @@
   "babel": { "presets": [ "jsy" ] },
   "scripts": {
     "start": "node dist/main.js",
-    "test": "echo \"Error: no test specified\" && exit 1",
     "build": "babel src --out-dir dist",
     "watch": "babel --watch src --out-dir dist",
-    "runtests":"nodemon --exec 'babel-node' tests/all.js tests/test*.js"
+    "test":"nodemon --exec 'babel-node' tests/all.js tests/test*.js"
   },
   "author": "brandon brown",
   "license": "ISC",
