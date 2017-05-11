@@ -17,9 +17,9 @@
   "author": "brandon brown",
   "license": "ISC",
   "devDependencies": {
-    "babel-cli": "^6.23.0",
-    "babel-core": "^6.23.1",
-    "babel-preset-jsy": "^0.5.3",
+    "babel-cli": "^6.24.1",
+    "babel-core": "^6.24.1",
+    "babel-preset-jsy": "^0.7.0",
     "nodemon": "^1.11.0"
   },
   "dependencies": {
