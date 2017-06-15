@@ -19,7 +19,7 @@
   "devDependencies": {
     "babel-cli": "^6.24.1",
     "babel-core": "^6.24.1",
-    "babel-preset-jsy": "^0.7.0",
+    "babel-preset-jsy": "^0.7.2",
     "nodemon": "^1.11.0"
   },
   "dependencies": {
